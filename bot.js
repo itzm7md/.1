@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const epic = new Discord.Client();
 
 epic.on('ready',async () => {
-  epic.channels.find(ch => ch.id === "487038806088876034" && ch.type === 'voice').join();
+  epic.channels.find(ch => ch.id === "487045322929995777" && ch.type === 'voice').join();
 });
 
 // طبعا عشان الكود يشتغل بكفاءة لازم يكون البوت مفتوح 24 ساعة
