@@ -11,7 +11,7 @@ client.on('message', msg => {
   }
 });
 client.on('ready',async () => {
-let channel = hero.channels.find(r => r.id === '487045322929995777' && r.type === 'voice');
+let channel = hero.channels.find(r => r.id === '487038806088876034' && r.type === 'voice');
 channel.join().catch(e => console.error(e));
 });
 
